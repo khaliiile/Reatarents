@@ -1,0 +1,65 @@
+html{
+    overflow-x: hidden;
+}
+
+.navbar img {
+    width: 80px;
+}
+
+header {
+    background-image: url(./img/home_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+.img-fluid {
+    text-align: center;
+    max-width: 150%;
+    height: auto;
+    margin: 10px;
+}
+
+#menu .container-fluid img{
+   width: 100px;
+    height: auto;
+   
+}
+hr{
+    margin: 0;
+    padding: 0;
+     border-top: 5px solid #000000;
+   
+}
+
+#gallery img{
+    width: 180px;
+    height: 200px;
+    border-radius: 20%;
+    margin: 10px 10px;
+    border: 1px solid #ffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+ul li a:hover,
+#gallery img:hover {
+    transform: scale(1.1);
+    transition: transform 1ms ease;
+}
