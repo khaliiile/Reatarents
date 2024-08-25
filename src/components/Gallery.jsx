@@ -7,14 +7,14 @@ export default function Gallery() {
   return (
     <>
               <section id="gallery">
-                    <div class="d-flex justify-content-center">
-                        <div class="text-center mt-4">
+                    <div className="d-flex justify-content-center mt-5">
+                        <div className="text-center mt-5">
                         <h2>Our Food Gallery</h2>
-                        <div class="p-5">
-                            <img  src={gallery1} alt="gallery1"/>
-                            <img src={gallery2} alt="gallery2"/>
-                            <img src={gallery3} alt="gallery3"/>
-                            <img src={gallery4} alt="gallery4"/>
+                        <div className="p-4 ">
+                            <img className='p-1 mx-5'  src={gallery1} alt="gallery1"/>
+                            <img   className='p-1 mx-5' src={gallery2} alt="gallery2"/>
+                            <img   className='p-1 mx-5' src={gallery3} alt="gallery3"/>
+                            <img  className='p-1 mx-5' src={gallery4} alt="gallery4"/>
                           
                         </div>  
                         </div>

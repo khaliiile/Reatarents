@@ -13,19 +13,19 @@ export default function ReHeader() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active text-light" aria-current="page" >Home</a>
+                            <a className="nav-link active text-light" aria-current="page"  href='/'>Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-light" >About</a>
+                            <a className="nav-link text-light"  href='#about' >About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active text-light" aria-current="page" >Menu</a>
+                            <a className="nav-link active text-light" aria-current="page"  href='#Openning' >Time Open</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-light" >Gallery</a>
+                            <a className="nav-link text-light" href='#gallery' >Gallery</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-light" >Contact</a>
+                            <a className="nav-link text-light"  href='#contact' >Contact</a>
                         </li>
                     </ul>
                 </div>

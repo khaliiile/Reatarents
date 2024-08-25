@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <>
       <section id="contact">
-        <div className="container mt-3 ">
+        <div className="container mt-5 ">
           <h1 className="text-center">Contact Us</h1>
           <div className="d-flex justify-content-center mt-5">
             <div className="container">
@@ -28,13 +28,13 @@ export default function Contact() {
               </div>
               <div>
                 <h6>FOLLOW US</h6>
-                <a href="#">
+                <a href="/">
                   <i className="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="#">
+                <a href="/">
                   <i className="fa-brands fa-twitter"></i>
                 </a>
-                <a href="#">
+                <a href="/">
                   <i className="fa-brands fa-instagram"></i>
                 </a>
               </div>
